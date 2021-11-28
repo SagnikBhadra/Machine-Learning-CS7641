@@ -2,13 +2,13 @@ from hiive.mdptoolbox.mdp import ValueIteration, PolicyIteration, QLearning
 from hiive.mdptoolbox.example import forest
 import gym
 import numpy as np
+from util import provide_scores, adjust_data_structure, show_decisions, tsting
+import pandas as pd
+import seaborn as sns
 import sys
 import os
 from numpy.random import choice
-import pandas as pd
-import seaborn as sns
 
-from util import provide_scores, adjust_data_structure, show_decisions, tsting
 
 # Action = i
 # State = j

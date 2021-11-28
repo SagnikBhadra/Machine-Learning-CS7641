@@ -1,12 +1,12 @@
 import gym
 import numpy as np
-import random
 from timeit import default_timer as timer
-from datetime import timedelta
-import matplotlib.pylab as plt
 import pandas as pd
 import seaborn as sns
+from datetime import timedelta
+import matplotlib.pylab as plt
 from gym.envs.toy_text.frozen_lake import generate_random_map, FrozenLakeEnv
+import random
 
 from util import provide_scores, adjust_data_structure, show_decisions, tsting
 
